@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 1m
+  evaluation_interval: 15s
+  external_labels:
+    monitor: "prediction-service"
+
+rule_files:
+
+scrape_configs:
+
+  - job_name: "prediction-service"
+    dns_sd_configs:
+      - names: ["prediction-service"]
+        port: 8000
+        type: A
+        refresh_interval: 30s

@@ -108,25 +108,5 @@ Grafana is used for visualization. You can find the dashboard in the `provisioni
 ```
 </details>
 
-## Screenshots <a name="Screenshots"></a>
-
-### Grafana Dashboard
-<p align="center">
-  <img src="assets/Loan_Approval_Dashboard.png"  width="800">
-  <img src="assets/Loan_Approval_Dashboard_2.png" width="800">
-</p>
-
-### pytest (Unit Test)
-<p align="center">
-  <img src="assets/pytest.PNG"  width="800">
-</p>
-
-
-
-### Locust (Load Test)
-<p align="center">
-  <img src="assets/Locust_1.png"  width="800">
-  <img src="assets/Locust_2.png" width="800">
-</p>
 
 """

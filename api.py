@@ -11,12 +11,10 @@ from src.utils import (
 )
 from uvicorn.config import LOGGING_CONFIG
 from prometheus_fastapi_instrumentator import Instrumentator, metrics
+from src.readme import description
 
 NAMESPACE = "prediction_service"
 SUBSYSTEM = "loan_approval"
-
-app = FastAPI()
-router = APIRouter()
 
 app = FastAPI(title="Loan Approval Prediction API", version="0.1")
 app.include_router(endpoints.router)
